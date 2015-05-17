@@ -1,7 +1,7 @@
 # どどんとふ on Docker
 ## 「どどんとふ」とは
 [たいたい竹流](https://github.com/torgtaitai)氏によって制作されたオンラインTRPGセッションツールです。  
-詳細は、[本家サイト](http://www.dodontof.com/index.php)
+詳細は、[本家サイト](http://www.dodontof.com/index.php)を参照ください。
 
 ## 概要
 どどんとふのDockerイメージを作成するDockerFileです。  
