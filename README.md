@@ -29,5 +29,9 @@ http://<ドメインorIP>/DodontoF/DodontoF.swf
 * rubygem: v2.2.0（yumでインストール）
 * どどんとふホーム: /var/www/html/DodontoF
 
+## 注意事項
+これといってチューニングはしていませんので、dockerで起動後、適宜チューンしてください。
+`docker attach`や`docker commit`を駆使すれば、いい感じになるはずです。
+
 ## サンクス
 [どどんとふ＠えくすとり〜む](http://www.dodontof.com/index.php)
