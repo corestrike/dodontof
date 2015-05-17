@@ -12,15 +12,15 @@
 
 ## 概要
 どどんとふのDockerイメージを作成するDockerFileです。  
-Dockerのインストールに関しては、適宜ググってください。  
+Dockerのインストールに関しては、適宜ググってください。
 ```
-> yum install docker
+＞ yum install docker
 ```
 
 ## Dockerで動かす
 クリーンな状態のどどんとふを作成することができます。
 ```
-> docker run -d -it -p 80:80 corestrike/dodontof
+＞ docker run -d -it -p 80:80 corestrike/dodontof
 ```
 
 ## 稼動確認
