@@ -32,9 +32,12 @@ WORKDIR /var/www/html/DodontoF
 RUN mv imageUploadSpace /var/www/html
 RUN mv saveData /var/www
 RUN chmod 705 -R /var/www/html/DodontoF
+RUN chmod 703 -R /var/www/html/DodontoF/saveDataTempSpace
+RUN chmod 703 -R /var/www/html/DodontoF/fileUploadSpace
+RUN chmod 703 -R /var/www/html/DodontoF/replayDataUploadSpace
 RUN chmod 606 -R /var/www/html/DodontoF/log.*
-RUN chmod 707 -R /var/www/html/imageUploadSpace
-RUN chmod 707 -R /var/www/saveData
+RUN chmod 703 -R /var/www/html/imageUploadSpace
+RUN chmod 703 -R /var/www/saveData
 RUN rm -rf /dodontof
 
 # EXPOSE コマンドを使って、ポートを解放
