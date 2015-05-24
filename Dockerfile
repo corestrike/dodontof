@@ -36,8 +36,8 @@ RUN chmod 703 -R /var/www/html/DodontoF/saveDataTempSpace
 RUN chmod 703 -R /var/www/html/DodontoF/fileUploadSpace
 RUN chmod 703 -R /var/www/html/DodontoF/replayDataUploadSpace
 RUN chmod 606 -R /var/www/html/DodontoF/log.*
-RUN chmod 703 -R /var/www/html/imageUploadSpace
-RUN chmod 703 -R /var/www/saveData
+RUN chmod 707 -R /var/www/html/imageUploadSpace
+RUN chmod 707 -R /var/www/saveData
 RUN rm -rf /dodontof
 
 # EXPOSE コマンドを使って、ポートを解放
